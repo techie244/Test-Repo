@@ -1,6 +1,6 @@
 @RestResource(urlMapping='/Account/*')
 global with sharing class MyRestResource {
-	//XYZABC
+	//XYZABCPQR
     @HttpDelete
     global static void doDelete() {
         RestRequest req = RestContext.request;
